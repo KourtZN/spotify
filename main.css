@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+#logo {
+    display: inline-block;
+    width: 30%;
+}
+.enlaces {
+    display: inline-block;
+    width: 60%;
+    padding-left: 100px;
+}
+.enlaces ul,
+.enlaces ul li{
+    display: inline;
+}
+.enlaces ul li{
+    padding-right: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+}
+.enlaces ul li:hover{
+    color: green;
+}
+main{
+    background-position: 120% -85%;
+    background-color: #2941ab;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    height: 500px;
+    padding: 100px 300px;
+    text-align: center;
+}
+main h1{
+    font-size: 80px;
+    color: #1ed760;
+
+}
+main h4{
+    color: #1ed760;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+main a{
+    background-color: #1ed760;
+    padding: 15px 30px;
+    margin: 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #2941ab;
+    text-transform: uppercase;
+}
+#premium{
+    background-color: #1572e2;
+    padding-top: 60px;
+    padding-bottom: 35px;
+    padding-left: 100px;
+}
+#premium h1{
+    font-size: 40px;
+}
+#premium h2{
+    font-size: 14px;
+    padding: 15px 0px;
+}
+#premium h1,
+#premium h2{
+    color:white;
+    margin-bottom:15px;
+}
+#premium button{
+    border-radius: 100px;
+    padding: 15px 30px;
+    border: none;
+    color:white;
+}
+#premium .negro{
+    background-color: black;    
+}
+
+#premium .transparente{
+    background-color: transparent;
+}
+#premium .transparente:hover{
+    background-color: blue;
+}
+#premium p{
+    color: white;
+    font-size: 12px;
+}
+#premium p a{
+    color: white;
+}
+#botones{
+    margin: 10px 0;
+}
+#elige{
+    margin-top: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#elige h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#elige h4{
+    text-align: center;
+    font-size: 18px;
+}
+.tabla{
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+}
+table{
+    border-spacing: 10px 0px;
+  }
+
+#elige tr, td{
+    border: 1px solid rgb(170, 164, 164);
+    border-radius: 15px;
+    padding: 20px;
+    vertical-align: top;
+    width: 25%;
+}
+#elige .azul{
+    width: 75%;
+    margin:5px;
+    color: white;
+    font-weight: bold;
+    background-color: #1572e2;
+    border-radius: 5px;
+    height: 25px;
+    padding-top: 3px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+#elige .blanco{
+    width: 75%;
+    margin:5px;
+    color: #1572e2;
+    font-weight: bold;
+    border: 1px solid #1572e2;
+    border-radius: 5px;
+    height: 25px;
+    padding-top: 3px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#elige button{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    padding: 15px 30px;
+    border: none;
+    color:white;
+    background-color: black;
+    width: 65%;
+}
+
+#elige ul li{
+    font-size: 16px;
+    list-style-image: url('./checkmark.png');
+    margin-left: 35px;
+    
+}
+
+#elige p{
+    font-size: 16px;
+    margin-top: 3px;
+    
+}
+#elige .terminos{
+    font-size: 12px;
+}
+#elige p a{
+    color: black;
+}
+#elige .linea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2px;
+    background-color:rgb(88, 85, 85);
+}
+#air{
+    margin-top: 200px;
+}
+#elige .centro{
+    text-align: center;
+}
+#elige .superior{
+    height: 160px;
+}
+#elige .medio{
+    height: 300px;
+}
+#elige .bajo{
+    height: 180px;
+}
